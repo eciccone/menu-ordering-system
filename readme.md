@@ -51,4 +51,4 @@ To input a order enter the orders in the following format: `<order-type> <list-o
 
 The option `end` will kill the application.
 
-The option `test` will run all the test cases and then kill the application.
+The option `test` will run all the test cases and then kill the application (this option is only valid if it is the very first input to the program).
