@@ -90,6 +90,12 @@ public class MenuOrderingSystem {
 
 		// get the entire users input
 		String input = scan.nextLine();
+		
+		if(input.equals("test")) {
+			MenuOrderingSystemTests tests = new MenuOrderingSystemTests();
+			tests.executeTests();
+			return;
+		}
 
 		// execute in a loop until user inputs "end"
 		while (!input.equals("end")) {
