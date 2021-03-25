@@ -2,9 +2,12 @@
 
 For my solution to the Evive Engineering take home test, I completed the project using the programming language Java. 
 
-### Running the project locally
+### Requirements
+- JDK 11 or higher
+- UNIX based system (the project will run on any system supported by java, but my instructions are specifically geared towards a UNIX based command line)
+- Git
 
-**These instructions assume you are using a UNIX based system such as Linux or MacOS**
+### Running the project locally
 
 To run my solution locally first clone the project to your local machine.
 
