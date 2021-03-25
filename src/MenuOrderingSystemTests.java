@@ -4,17 +4,6 @@ import orders.Order;
 
 public class MenuOrderingSystemTests {
 
-	private String eggs = "Eggs";
-	private String toast = "Toast";
-	private String coffee = "Coffee";
-	private String salad = "Salad";
-	private String chips = "Chips";
-	private String soda = "Soda";
-	private String steak = "Steak";
-	private String potatoes = "Potatoes";
-	private String wine = "Wine";
-	private String cake = "Cake";
-	
 	private String breakfast = "Breakfast";
 	private String lunch = "Lunch";
 	private String dinner = "Dinner";
