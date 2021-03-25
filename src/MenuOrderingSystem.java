@@ -160,6 +160,8 @@ public class MenuOrderingSystem {
 			System.out.print("\nIn: ");
 			input = scan.nextLine();
 		}
+		
+		scan.close();
 
 	}
 }

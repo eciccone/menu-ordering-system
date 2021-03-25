@@ -173,7 +173,6 @@ public class MenuOrderingSystemTests {
 		System.out.println("Expected: " + expected);
 		
 		Order order = mos.createOrder(lunch);
-		Menu menu = mos.getMenu(order);
 		
 		String actual = order.generateOrder();
 		System.out.println("Actual:   " + actual);
@@ -228,7 +227,6 @@ public class MenuOrderingSystemTests {
 		System.out.println("Expected: " + expected);
 		
 		Order order = mos.createOrder(dinner);
-		Menu menu = mos.getMenu(order);
 		
 		String actual = order.generateOrder();
 		System.out.println("Actual:   " + actual);

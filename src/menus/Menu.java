@@ -1,10 +1,8 @@
 package menus;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import items.DrinkItem;
 import items.Item;
 
 public class Menu {
@@ -23,6 +21,10 @@ public class Menu {
 	
 	public Item getItemById(int itemId) {
 		return items.get(itemId);
+	}
+	
+	public String getMenuType() {
+		return menuType;
 	}
 	
 }
