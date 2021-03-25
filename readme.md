@@ -4,9 +4,11 @@ For my solution to the Evive Engineering take home test, I completed the project
 
 ### Running the project locally
 
+**These instructions assume you are using a UNIX based system such as Linux or MacOS**
+
 To run my solution locally first clone the project to your local machine.
 
-To do this using the comman line, execute the following command:
+To do this using the command line, execute the following command:
 
 ```
 ~$ git clone https://github.com/eciccone/menu-ordering-system.git
@@ -23,17 +25,17 @@ After changing directories, now you should compile the java project and store th
 The following command will compile the project and store the compiled files into a folder named output:
 
 ```
-~/menu-ordering-system$ javac src/*.java src/items/*.java src/menus/*.java src/orders/*.java -d output
+~$ javac src/*.java src/items/*.java src/menus/*.java src/orders/*.java -d output
 ```
 
 Once the files have been compiled change into the newly created output directory.
 
 ```
-~/menu-ordering-system$ cd output
+~$ cd output
 ```
 
 After changing into the output directory you can now run the project. To run the project execute the following command:
 
 ```
-~/menu-ordering-system/output$ java MenuOrderingSystem
+~$ java MenuOrderingSystem
 ```
