@@ -85,7 +85,7 @@ public class MenuOrderingSystem {
 		// creates a scanner object to get user input
 		Scanner scan = new Scanner(System.in);
 
-		System.out.println("To end program, enter: end\n\n");
+		System.out.println("To run the test cases, enter: test (only valid for the first input)\nTo end program, enter: end\n\n");
 		System.out.print("In: ");
 
 		// get the entire users input

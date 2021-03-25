@@ -42,3 +42,13 @@ After changing into the output directory you can now run the project. To run the
 ```
 ~$ java MenuOrderingSystem
 ```
+
+### Interacting with the project
+
+Once the program is running there are 3 options: input a order, test, and end.
+
+To input a order enter the orders in the following format: `<order-type> <list-of-item-ids>`. 
+
+The option `end` will kill the application.
+
+The option `test` will run all the test cases and then kill the application.
